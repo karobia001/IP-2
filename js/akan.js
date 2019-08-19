@@ -1,6 +1,6 @@
  function checkDayOfWeek() {
  var DD = document.getElementById("monthday").value;
-// var MM = document.getElementById("month").value;
+ var MM = document.getElementById("month").value;
 // var CC = document.getElementById("century").value;
 // var YY = document.getElementById("year").value;
 // var genders = document.getElementsByName("rads");
