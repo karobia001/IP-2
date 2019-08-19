@@ -3,14 +3,22 @@
  var MM = document.getElementById("month").value;
  var CC = document.getElementById("century").value;
  var YY = document.getElementById("year").value;
-// var genders = document.getElementsByName("rads");
-// 
+ var genders = document.getElementsByName("rads");
+
+ function getGender () {
+     for (gender of genders) {
+         if (gender.checked){
+             return gender.value;
+         }
+     }
+ }
+ 
 var myGenderValue = getGender();
 console.log(myGenderValue);
-//function dayOfTheWeek() {
+
     var pickedDay  = Math.round( ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
 
-//};
+
 //create arrays for male names and day of the week;
 var daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
