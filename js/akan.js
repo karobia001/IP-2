@@ -1,5 +1,4 @@
-
-// function checkDayOfWeek() {
+ function checkDayOfWeek() {
 // var DD = document.getElementById("monthday").value;
 // var MM = document.getElementById("month").value;
 // var CC = document.getElementById("century").value;
