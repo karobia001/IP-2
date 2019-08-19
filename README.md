@@ -1,4 +1,4 @@
-# AKAN NAMES OF GHANA.
+ # AKAN NAMES OF GHANA.
 ## Description
 This application takes the users birthday and calculates their Akan name.
 
